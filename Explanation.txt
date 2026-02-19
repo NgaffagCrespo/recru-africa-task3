@@ -1,0 +1,8 @@
+If i was in a large backend i will structure my project like this :
+- services/weather_service.py : Contains the function fetch_weather that interacts with OpenWeather API.
+
+controllers/weather_controller.py : Calls the service function, handles user requests, and formats responses for the frontend.
+
+models/weather_model.py : Defines a data model (e.g., WeatherData) for storing and validating weather information.
+
+Error handling & logging : Use a centralized error handler and logging system to track API failures.
