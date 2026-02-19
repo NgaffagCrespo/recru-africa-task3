@@ -1,14 +1,13 @@
 import requests
 
 
-def fetch_weather(city, api_key, window=10):
+def fetch_weather(city, api_key):
     """
     Fetch current weather data from OpenWeather API.
-
+.
     Parameters:
         city (str): City name (e.g., "Douala").
         api_key (str): Your OpenWeather API key.
-        window (int): Not used here, but could be useful for caching or rate-limiting.
 
     Returns:
         dict: Clean JSON with selected fields or error message.
