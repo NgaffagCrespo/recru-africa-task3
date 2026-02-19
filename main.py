@@ -7,7 +7,7 @@ def fetch_weather(city, api_key):
 .
     Parameters:
         city (str): City name (e.g., "Douala").
-        api_key (str): Your OpenWeather API key.
+        api_key (str): OpenWeather API key.
 
     Returns:
         dict: Clean JSON with selected fields or error message.
